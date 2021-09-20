@@ -1,0 +1,39 @@
+.Avatar {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border: 5px solid #fff;
+  border-radius: 100px;
+  background-color: black;
+  background-image: url("/assets/images/about/tim-kelly-mobile.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 6px 35px 1px rgba(73, 65, 139, 0.32);
+}
+
+.CentreContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ContactContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SocialContainer {
+  display: flex;
+  margin-top: 30px;
+}
+
+.SocialIcon {
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 30px;
+}

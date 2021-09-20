@@ -12,6 +12,13 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["prettier"],
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      },
+    },
+  },
   rules: {
     quotes: [
       "error",
@@ -26,6 +33,7 @@ module.exports = {
     // allow jsx syntax in js files (for next.js project)
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "react/prop-types": "off",
+    "react/jsx-one-expression-per-line": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "jsx-a11y/anchor-has-content": "off",
   },
