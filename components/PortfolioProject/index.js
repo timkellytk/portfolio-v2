@@ -40,7 +40,6 @@ const PortfolioProject = ({
       />
     ));
   const ImageScreenshots = () =>
-    // eslint-disable-next-line implicit-arrow-linebreak
     images.map((image) => (
       <img
         src={image}
@@ -51,7 +50,6 @@ const PortfolioProject = ({
     ));
 
   const ContentComponent = () =>
-    // eslint-disable-next-line implicit-arrow-linebreak
     content.map((topic) => (
       <div key={topic.heading}>
         <h1>{topic.heading}</h1>

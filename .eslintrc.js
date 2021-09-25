@@ -36,5 +36,6 @@ module.exports = {
     "react/jsx-one-expression-per-line": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "jsx-a11y/anchor-has-content": "off",
+    "implicit-arrow-linebreak": "off",
   },
 };
