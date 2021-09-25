@@ -1,0 +1,33 @@
+.Photo {
+  background-image: url("/assets/images/about/tim-kelly.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vmin;
+  min-height: 700px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 16vmin auto;
+  box-sizing: border-box;
+}
+
+a.Resume,
+a.Resume:after,
+a.Resume:visited {
+  color: #111111;
+  cursor: pointer;
+}
+
+.ContactList {
+  margin: 0vmin 0 20vmin 0;
+}
+
+@media screen and (max-width: 767px) {
+  .Photo {
+    background-image: url("/assets/images/about/tim-kelly-mobile.png");
+    background-position: center center;
+    height: 140vmin;
+    min-height: 300px;
+    margin: 16vmin auto;
+  }
+}
