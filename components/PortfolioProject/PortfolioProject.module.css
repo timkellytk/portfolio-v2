@@ -1,0 +1,95 @@
+.Hero {
+  display: grid;
+  min-height: 95vh;
+  background: #f7f7f7;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.HeroContent {
+  margin: 0 10vmin;
+  padding-left: 10%;
+  padding-right: 0%;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.HeroImageSection {
+  min-height: 250px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.ImageContainer {
+  display: flex;
+  margin-left: -50px;
+  margin-right: -50px;
+  animation-name: imageScroll;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.Image {
+  height: 50vh;
+  min-height: 200px;
+  margin-right: 50px;
+}
+
+.Screenshot {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ViewWebsiteMargin {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.Logo {
+  height: 60px;
+  margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+  .Hero {
+    grid-template-columns: 1fr;
+    min-height: 60vh;
+    padding-top: 60px;
+  }
+  .HeroContent {
+    margin: 0 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .HeroImageSection {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Logo {
+    margin-top: 20px;
+  }
+  .Image {
+    height: 200px;
+  }
+}
+
+@keyframes imageScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-2500px);
+  }
+}
