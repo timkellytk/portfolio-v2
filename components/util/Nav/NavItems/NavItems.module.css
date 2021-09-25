@@ -1,0 +1,27 @@
+.NavMenu {
+  display: flex;
+}
+
+.NavLink {
+  color: white;
+  font-weight: 500;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: color 200ms;
+}
+
+.NavLink:hover {
+  color: lightgray;
+}
+
+@media screen and (max-width: 767px) {
+  .NavMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .NavLink {
+    margin-left: 0px;
+  }
+}

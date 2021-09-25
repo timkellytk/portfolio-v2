@@ -1,0 +1,46 @@
+.Nav {
+  position: fixed;
+  margin: 0 10vmin;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  bottom: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8em;
+  line-height: 80%;
+  z-index: 1;
+}
+
+.NavMargin {
+  margin: 24vmin 0 0 0;
+}
+
+.Logo {
+  color: white;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .Nav {
+    margin: 0;
+  }
+  .NavMargin {
+    margin: 30vmin 0 0 0;
+  }
+  .DesktopOnly {
+    display: none;
+  }
+  .Logo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

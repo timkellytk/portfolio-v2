@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Layout from "../components/util/Layout";
 import Contact from "../components/Contact";
 
 export default function Index() {
@@ -7,7 +8,9 @@ export default function Index() {
       <Head>
         <title>Tim Kelly, Front-End Web Developer In Sydney, Australia</title>
       </Head>
-      <Contact />
+      <Layout>
+        <Contact />
+      </Layout>
     </>
   );
 }

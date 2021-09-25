@@ -1,0 +1,78 @@
+.MobileNav {
+  position: fixed;
+  height: 100vh;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8em;
+  line-height: 80%;
+  z-index: 1;
+}
+
+@media (min-width: 767px) {
+  .MobileNav {
+    display: none;
+  }
+}
+
+.CloseBtn {
+  position: absolute;
+  cursor: pointer;
+  left: auto;
+  top: 3vh;
+  right: 3vh;
+  bottom: auto;
+}
+
+.Open {
+  animation-name: open;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+}
+
+.Closed {
+  transform: translate(100%);
+  animation-name: close;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+}
+
+.Load {
+  display: none;
+}
+
+@keyframes open {
+  from {
+    transform: translate(15%, -15%);
+    opacity: 0%;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 100%;
+  }
+}
+
+@keyframes close {
+  from {
+    transform: translate(0, 0);
+    opacity: 100%;
+  }
+  99% {
+    transform: translate(15%, -15%);
+    opacity: 0%;
+  }
+  to {
+    display: none;
+  }
+}
