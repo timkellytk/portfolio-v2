@@ -11,8 +11,7 @@ import {
   SketchboxDesignPreview,
 } from "./PortfolioPreview/allPreviews";
 import PortfolioPreview from "./PortfolioPreview";
-
-// import TheOdinProject from "./TheOdinProject/TheOdinProject";
+import TheOdinProject from "./TheOdinProject";
 import style from "./PortfolioComponent.module.css";
 
 const PortfolioComponent = () => (
@@ -36,7 +35,7 @@ const PortfolioComponent = () => (
           <SculptrVRPreview PortfolioPreview={PortfolioPreview} />
           <EvolutionaryTutorsPreview PortfolioPreview={PortfolioPreview} />
         </div>
-        {/*  <TheOdinProject /> */}
+        <TheOdinProject />
       </Animate>
     </div>
   </BodyContent>

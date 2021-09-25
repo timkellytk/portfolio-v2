@@ -1,0 +1,27 @@
+.Photo {
+  display: block;
+  width: 35vw;
+  height: 20vw;
+  max-width: none;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.Photo:hover {
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 767px) {
+  .Photo {
+    display: block;
+    width: 84vw;
+    height: 48vw;
+  }
+}

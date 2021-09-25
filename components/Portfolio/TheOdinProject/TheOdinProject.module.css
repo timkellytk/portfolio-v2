@@ -1,0 +1,59 @@
+.SectionTop {
+  display: block;
+  margin-top: 40px;
+  margin-left: -100px;
+  margin-right: -100px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  animation-name: imageScrollTop;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.SectionBottom {
+  display: block;
+  margin-top: 40px;
+  margin-left: -70px;
+  margin-right: -100px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  animation-name: imageScrollBottom;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.PhotoContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1vw;
+}
+.Content {
+  width: 60%;
+}
+@media (max-width: 1300px) {
+  .Content {
+    width: 100%;
+  }
+}
+@keyframes imageScrollTop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-900px);
+  }
+}
+@keyframes imageScrollBottom {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-1200px);
+  }
+}
