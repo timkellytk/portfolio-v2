@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import ProjectItem from "./ProjectItem";
 import Section from "../../util/Section";
 import LinkArrow from "../../util/LinkArrow";
@@ -7,9 +8,11 @@ import style from "./TheOdinProject.module.css";
 const TheOdinProject = () => (
   <Section gradient1="#e0e0e0" gradient2="#eddfc8">
     <div className={style.Content}>
-      <img
+      <Image
         src="/assets/images/projects/the-odin-project/odin-logo.svg"
         alt="the odin project logo"
+        height="85"
+        width="80"
       />
       <h2>Projects from The Odin Project Bootcamp</h2>
       <p>

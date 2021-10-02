@@ -14,12 +14,33 @@
   transition-timing-function: ease;
 }
 
+.PhotoBg {
+  position: relative;
+  width: 35vw;
+  height: 20vw;
+  max-width: none;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  flex: 0 0 auto;
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
 .Photo:hover {
+  transform: scale(1.02);
+}
+.PhotoBg:hover {
   transform: scale(1.02);
 }
 
 @media screen and (max-width: 767px) {
   .Photo {
+    display: block;
+    width: 84vw;
+    height: 48vw;
+  }
+  .PhotoBg {
     display: block;
     width: 84vw;
     height: 48vw;

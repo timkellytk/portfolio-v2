@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import PropTypes from "prop-types";
 import Section from "../../util/Section";
 import LinkArrow from "../../util/LinkArrow";
@@ -13,7 +14,17 @@ const PortfolioPreview = ({
 }) => (
   <Section gradient1={gradient1} gradient2={gradient2}>
     <div>
-      <img src={logo} alt={`${name} logo`} height="65px" />
+      <div style={{ position: "relative", height: "65px" }}>
+        <Image
+          src={logo}
+          height="65"
+          width="200"
+          layout="fill"
+          objectFit="contain"
+          objectPosition="left"
+          alt={`${name} logo`}
+        />
+      </div>
       <p>{description}</p>
       <LinkArrow link={link}>View Full Project</LinkArrow>
     </div>
