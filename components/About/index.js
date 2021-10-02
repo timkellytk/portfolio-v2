@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import BodyContent from "../util/BodyContent";
 import ContentContainer from "../util/ContentContainer";
 import Animate from "../util/Animate";
@@ -33,29 +34,51 @@ const AboutComponent = () => (
           In 2020, I studied full-time how to build modern web applications with
           JavaScript, React, Redux and Firebase. I developed websites for
           startups in education, travel, VR gaming and VR software. My freelance
-          clients include <a href="/portfolio/sketchbox-design">Sketchbox</a>,{" "}
-          <a href="/portfolio/the-rambler-co">The Rambler Co</a>,{" "}
-          <a href="/portfolio/swarm">Swarm</a>,{" "}
-          <a href="/portfolio/sculptrvr">SculptrVR</a> and{" "}
-          <a href="/portfolio/greensky-games">Greensky Games</a>.
+          clients include{" "}
+          <Link href="/portfolio/sketchbox-design">
+            <a>Sketchbox</a>
+          </Link>
+          ,{" "}
+          <Link href="/portfolio/the-rambler-co">
+            <a>The Rambler Co</a>
+          </Link>
+          ,{" "}
+          <Link href="/portfolio/swarm">
+            <a>Swarm</a>
+          </Link>
+          ,{" "}
+          <Link href="/portfolio/sculptrvr">
+            <a>SculptrVR</a>
+          </Link>{" "}
+          and{" "}
+          <Link href="/portfolio/greensky-games">
+            <a>Greensky Games</a>
+          </Link>
+          .
         </p>
         <p>
           In my previous role as a Developer Intern at{" "}
-          <a href="https://www.southerncrossaustereo.com.au/">
-            Southern Cross Austereo
-          </a>
-          , we launched <a href="https://www.listnr.com/">LiSTNR</a>, an audio
-          platform built with React, Redux, Firebase Cloud Function and GraphQL.
+          <Link href="https://www.southerncrossaustereo.com.au/">
+            <a>Southern Cross Austereo</a>
+          </Link>
+          , we launched{" "}
+          <Link href="https://www.listnr.com/">
+            <a>LiSTNR</a>
+          </Link>
+          , an audio platform built with React, Redux, Firebase Cloud Function
+          and GraphQL.
         </p>
         <p>
           Now I&apos;m a UI developer at{" "}
-          <a href="https://www.4mation.com.au/">4mation Technologies</a>, a
-          custom web and software development company based in Surry Hills.
+          <Link href="https://www.4mation.com.au/">
+            <a>4mation Technologies</a>
+          </Link>
+          , a custom web and software development company based in Surry Hills.
         </p>
         <p>
-          <a className={style.Resume} href="/assets/pdfs/resume.pdf">
-            View resume
-          </a>
+          <Link href="/assets/pdfs/resume.pdf">
+            <a className={style.Resume}>View resume</a>
+          </Link>
         </p>
         <div className={style.ContactList}>
           <ContactItem link="mailto:timpkelly1@gmail.com">

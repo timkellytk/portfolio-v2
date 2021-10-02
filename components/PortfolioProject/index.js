@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import PropTypes from "prop-types";
 import Contact from "../Contact";
 import Animate from "../util/Animate";
@@ -66,11 +67,17 @@ const PortfolioProject = ({
               Back To Portfolio
             </BackArrow>
             <div>
-              <a href={url} target="_blank" rel="noopener noreferrer">
-                {logo && (
-                  <img src={logo} className={style.Logo} alt={`${name} Logo`} />
-                )}
-              </a>
+              <Link href={url}>
+                <a target="_blank" rel="noopener noreferrer">
+                  {logo && (
+                    <img
+                      src={logo}
+                      className={style.Logo}
+                      alt={`${name} Logo`}
+                    />
+                  )}
+                </a>
+              </Link>
             </div>
             <h1>{projectTitle}</h1>
             <p>{projectDescription}</p>
@@ -78,9 +85,11 @@ const PortfolioProject = ({
         </div>
         <div className={style.HeroImageSection} style={gradient}>
           <Animate delayTitle>
-            <a href={url} target="_blank" rel="noopener noreferrer">
-              <div className={style.ImageContainer}>{imageScroll}</div>
-            </a>
+            <Link href={url}>
+              <a target="_blank" rel="noopener noreferrer">
+                <div className={style.ImageContainer}>{imageScroll}</div>
+              </a>
+            </Link>
           </Animate>
         </div>
       </div>

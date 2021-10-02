@@ -11,7 +11,10 @@ const Custom404 = () => (
     </Animate>
     <Animate delayContent>
       <p>
-        Back to <Link href="/">timkelly.dev</Link>
+        Back to{" "}
+        <Link href="/">
+          <a>timkelly.dev</a>
+        </Link>
       </p>
     </Animate>
   </ContentContainer>

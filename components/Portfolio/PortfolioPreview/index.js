@@ -15,9 +15,7 @@ const PortfolioPreview = ({
     <div>
       <img src={logo} alt={`${name} logo`} height="65px" />
       <p>{description}</p>
-      <LinkArrow link={link} internal>
-        View Full Project
-      </LinkArrow>
+      <LinkArrow link={link}>View Full Project</LinkArrow>
     </div>
   </Section>
 );

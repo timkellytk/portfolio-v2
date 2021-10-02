@@ -9,11 +9,13 @@ const Nav = ({ open }) => (
   <>
     <header className={style.Nav}>
       <Link href="/">
-        <img
-          src="/assets/images/utility/tk-logo.png"
-          alt="Tim Kelly logo"
-          className={style.Logo}
-        />
+        <a>
+          <img
+            src="/assets/images/utility/tk-logo.png"
+            alt="Tim Kelly logo"
+            className={style.Logo}
+          />
+        </a>
       </Link>
       <nav className={style.DesktopOnly}>
         <NavItems />

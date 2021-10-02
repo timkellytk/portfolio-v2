@@ -5,13 +5,19 @@ import style from "./NavItems.module.css";
 const NavItems = () => (
   <div className={style.NavMenu}>
     <Link href="/about">
-      <p className={style.NavLink}>About</p>
+      <a>
+        <p className={style.NavLink}>About</p>
+      </a>
     </Link>
     <Link href="/portfolio">
-      <p className={style.NavLink}>Portfolio</p>
+      <a>
+        <p className={style.NavLink}>Portfolio</p>
+      </a>
     </Link>
     <Link href="/contact">
-      <p className={style.NavLink}>Contact</p>
+      <a>
+        <p className={style.NavLink}>Contact</p>
+      </a>
     </Link>
   </div>
 );

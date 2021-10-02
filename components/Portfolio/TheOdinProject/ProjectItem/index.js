@@ -1,11 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Link from "next/link";
 import style from "./ProjectItem.module.css";
 
 const ProjectItem = ({ link, image, alt }) => (
-  <a href={link} target="_blank" rel="noopener noreferrer">
-    <img src={image} alt={alt} className={style.Photo} />
-  </a>
+  <Link href={link}>
+    <a target="_blank" rel="noopener noreferrer">
+      <img src={image} alt={alt} className={style.Photo} />
+    </a>
+  </Link>
 );
 
 ProjectItem.propTypes = {
