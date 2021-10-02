@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import BodyContent from "../util/BodyContent";
 import ContentContainer from "../util/ContentContainer";
 import Animate from "../util/Animate";
@@ -17,7 +18,25 @@ const AboutComponent = () => (
       </Animate>
     </ContentContainer>
     <Animate delayContent>
-      <div className={style.Photo} />
+      <div className={style.PhotoBg}>
+        <Image
+          className={style.PhotoDesktop}
+          alt="Tim Kelly Profile Picture"
+          src="/assets/images/about/tim-kelly.png"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+        <Image
+          className={style.PhotoMobile}
+          alt="Tim Kelly Profile Picture"
+          src="/assets/images/about/tim-kelly-mobile.png"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+      </div>
+
       <ContentContainer>
         <p>
           I&apos;m a front-end web developer with a Bachelor of Marketing and

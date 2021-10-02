@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import Button from "../util/Button";
 import BodyContent from "../util/BodyContent";
 import ContentContainer from "../util/ContentContainer";
@@ -27,20 +28,30 @@ const Contact = () => (
               <Button link="mailto:timpkelly1@gmail.com">Email Me</Button>
               <div className={style.SocialContainer}>
                 <Link href="https://github.com/timkellytk">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <img
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={style.SocialIcon}
+                  >
+                    <Image
                       src="/assets/images/utility/github.png"
-                      className={style.SocialIcon}
                       alt="github"
+                      width="30"
+                      height="30"
                     />
                   </a>
                 </Link>
                 <Link href="https://www.linkedin.com/in/tim-patrick-kelly/">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <img
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={style.SocialIcon}
+                  >
+                    <Image
                       src="/assets/images/utility/linkedin.png"
-                      className={style.SocialIcon}
                       alt="linkedin"
+                      width="30"
+                      height="30"
                     />
                   </a>
                 </Link>
