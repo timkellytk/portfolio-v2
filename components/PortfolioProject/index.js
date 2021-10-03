@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import PropTypes from "prop-types";
 import Contact from "../Contact";
 import Animate from "../util/Animate";
@@ -30,23 +31,14 @@ const PortfolioProject = ({
     background: `linear-gradient(to bottom right, ${gradient1}, ${gradient2})`,
   };
 
-  const imageScroll = images
-    .slice(0, 7)
-    .map((image) => (
-      <img
-        src={image}
-        key={`scroll ${image}`}
-        className={style.Image}
-        alt="ebook website"
-      />
-    ));
   const ImageScreenshots = () =>
     images.map((image) => (
-      <img
+      <Image
         src={image}
         key={`screenshot ${image}`}
-        className={style.Screenshot}
-        alt="ebook website"
+        height="800"
+        width="1400"
+        quality="100"
       />
     ));
 
@@ -87,7 +79,14 @@ const PortfolioProject = ({
           <Animate delayTitle>
             <Link href={url}>
               <a target="_blank" rel="noopener noreferrer">
-                <div className={style.ImageContainer}>{imageScroll}</div>
+                <Image
+                  src={images[0]}
+                  key={`screenshot ${images[0]}`}
+                  height="800"
+                  width="1400"
+                  quality="100"
+                  priority
+                />
               </a>
             </Link>
           </Animate>

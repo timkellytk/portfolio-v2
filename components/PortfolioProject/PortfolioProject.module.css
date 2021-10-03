@@ -26,28 +26,6 @@
   padding-top: 60px;
 }
 
-.ImageContainer {
-  display: flex;
-  margin-left: -50px;
-  margin-right: -50px;
-  animation-name: imageScroll;
-  animation-duration: 50s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.Image {
-  height: 50vh;
-  min-height: 200px;
-  margin-right: 50px;
-}
-
-.Screenshot {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .ViewWebsiteMargin {
   margin-top: 60px;
   margin-bottom: 40px;
@@ -72,24 +50,12 @@
     padding-right: 5%;
   }
   .HeroImageSection {
-    grid-row-start: 1;
-    grid-row-end: 1;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    display: none;
   }
   .Logo {
     margin-top: 20px;
   }
   .Image {
     height: 200px;
-  }
-}
-
-@keyframes imageScroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-2500px);
   }
 }
