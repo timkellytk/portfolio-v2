@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from "react";
 import PropTypes from "prop-types";
+import Image from "next/image";
 import NavItems from "../NavItems";
 import style from "./MobileNav.module.css";
 
@@ -20,10 +21,11 @@ const MobileNav = ({ show, close }) => {
         aria-label="Close the menu"
         onClick={close}
       >
-        <img
+        <Image
           src="/assets/images/utility/exit.svg"
           alt="Close Menu"
-          height="20px"
+          height="20"
+          width="20"
         />
       </div>
     </div>

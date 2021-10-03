@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import PropTypes from "prop-types";
 import Link from "next/link";
 import style from "./LinkArrow.module.css";
@@ -8,11 +9,14 @@ const LinkArrow = ({ link, children }) => (
     <a>
       <div className={style.Button}>
         <p className={style.ArrowText}>{children}</p>
-        <img
-          src="/assets/images/utility/arrow-icon.svg"
-          className={style.ArrowIcon}
-          alt="arrow icon"
-        />
+        <div className={style.ArrowIcon}>
+          <Image
+            width="22px"
+            height="10px"
+            src="/assets/images/utility/arrow-icon.svg"
+            alt="arrow icon"
+          />
+        </div>
       </div>
     </a>
   </Link>

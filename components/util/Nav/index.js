@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import PropTypes from "prop-types";
 import Link from "next/link";
 import NavItems from "./NavItems";
@@ -10,11 +11,14 @@ const Nav = ({ open }) => (
     <header className={style.Nav}>
       <Link href="/">
         <a>
-          <img
-            src="/assets/images/utility/tk-logo.png"
-            alt="Tim Kelly logo"
-            className={style.Logo}
-          />
+          <div className={style.Logo}>
+            <Image
+              src="/assets/images/utility/tk-logo.png"
+              alt="Tim Kelly logo"
+              height="30px"
+              width="120px"
+            />
+          </div>
         </a>
       </Link>
       <nav className={style.DesktopOnly}>
