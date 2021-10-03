@@ -17,8 +17,6 @@ const PortfolioPreview = ({
       <div style={{ position: "relative", height: "65px" }}>
         <Image
           src={logo}
-          height="65"
-          width="200"
           layout="fill"
           objectFit="contain"
           objectPosition="left"
