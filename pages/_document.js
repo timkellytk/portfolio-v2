@@ -1,3 +1,4 @@
+// eslint-disable-next-line object-curly-newline
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 export default class MyDocument extends Document {

@@ -3,6 +3,7 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 import style from "./Quote.module.css";
 
+// eslint-disable-next-line object-curly-newline
 const Quote = ({ quote, avatar, avatarName, avatarTitle }) => (
   <div>
     <p className={style.Quote}>&quot;{quote}&quot;</p>
