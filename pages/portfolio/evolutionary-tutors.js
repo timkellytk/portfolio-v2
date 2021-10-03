@@ -6,7 +6,11 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>About | timkelly.dev</title>
+        <title>Evolutionary Tutors | timkelly.dev</title>
+        <meta
+          property="og:image"
+          content="/assets/images/openGraph/ogEvolutionary.png"
+        />
       </Head>
       <Layout>
         <EvolutionaryTutorsProject />

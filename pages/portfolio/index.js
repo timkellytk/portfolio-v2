@@ -7,6 +7,10 @@ export default function Index() {
     <>
       <Head>
         <title>Portfolio | Tim Kelly, Front-End Web Developer</title>
+        <meta
+          property="og:image"
+          content="/assets/images/openGraph/ogHome.png"
+        />
       </Head>
       <Layout>
         <Portfolio />

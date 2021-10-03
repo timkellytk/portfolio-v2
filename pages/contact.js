@@ -6,7 +6,11 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Tim Kelly, Front-End Web Developer In Sydney, Australia</title>
+        <title>Contact | timkelly.dev</title>
+        <meta
+          property="og:image"
+          content="/assets/images/openGraph/ogHome.png"
+        />
       </Head>
       <Layout>
         <Contact />

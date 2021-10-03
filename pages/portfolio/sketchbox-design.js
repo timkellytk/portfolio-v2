@@ -6,7 +6,11 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>About | timkelly.dev</title>
+        <title>Sketchbox Design | Portfolio | timkelly.dev</title>
+        <meta
+          property="og:image"
+          content="/assets/images/openGraph/ogSketchbox.png"
+        />
       </Head>
       <Layout>
         <SketchboxDesignProject />

@@ -6,7 +6,11 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>About | timkelly.dev</title>
+        <title>Swarm VR | Portfolio | timkelly.dev</title>
+        <meta
+          property="og:image"
+          content="/assets/images/openGraph/ogSwarm.png"
+        />
       </Head>
       <Layout>
         <SwarmProject />
