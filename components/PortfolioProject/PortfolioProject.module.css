@@ -32,7 +32,8 @@
 }
 
 .Logo {
-  height: 60px;
+  position: relative;
+  height: 65px;
   margin-top: 40px;
 }
 

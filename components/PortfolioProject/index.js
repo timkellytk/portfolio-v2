@@ -62,11 +62,18 @@ const PortfolioProject = ({
               <Link href={url}>
                 <a target="_blank" rel="noopener noreferrer">
                   {logo && (
-                    <img
-                      src={logo}
-                      className={style.Logo}
-                      alt={`${name} Logo`}
-                    />
+                    <div className={style.Logo}>
+                      <Image
+                        src={logo}
+                        className={style.Logo}
+                        alt={`${name} Logo`}
+                        height="65"
+                        width="200"
+                        layout="fill"
+                        objectFit="contain"
+                        objectPosition="left"
+                      />
+                    </div>
                   )}
                 </a>
               </Link>
@@ -76,20 +83,18 @@ const PortfolioProject = ({
           </Animate>
         </div>
         <div className={style.HeroImageSection} style={gradient}>
-          <Animate delayTitle>
-            <Link href={url}>
-              <a target="_blank" rel="noopener noreferrer">
-                <Image
-                  src={images[0]}
-                  key={`screenshot ${images[0]}`}
-                  height="800"
-                  width="1400"
-                  quality="100"
-                  priority
-                />
-              </a>
-            </Link>
-          </Animate>
+          <Link href={url}>
+            <a target="_blank" rel="noopener noreferrer">
+              <Image
+                src={images[0]}
+                key={`screenshot ${images[0]}`}
+                height="600"
+                width="1000"
+                quality="100"
+                priority
+              />
+            </a>
+          </Link>
         </div>
       </div>
       <BodyContent>
