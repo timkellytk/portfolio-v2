@@ -14,7 +14,15 @@ const Contact = () => (
         <div className={style.CentreContent}>
           <Animate delayTitle>
             <div className={style.CentreContent}>
-              <div className={style.Avatar} />
+              <div className={style.Avatar}>
+                <Image
+                  height="125"
+                  width="125"
+                  src="/assets/images/about/tim-kelly-mobile.png"
+                  objectFit="cover"
+                  objectPosition="center"
+                />
+              </div>
               <h1 className={style.Title}>Get in touch</h1>
               <p>
                 Contact me at{" "}
