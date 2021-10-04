@@ -3,6 +3,17 @@ import {
   EvolutinaryTutorsImages,
   EvolutionaryTutorsLogo,
   EvolutionaryTutorsAvatar,
+  GreenskyImages,
+  GreenskyLogo,
+  SculptrVRImages,
+  SculptrVRLogo,
+  SketchboxImages,
+  SketchboxLogo,
+  SwarmImages,
+  SwarmLogo,
+  RamblerImages,
+  RamblerLogo,
+  RamblerAvatar,
 } from "./projectImages";
 import PortfolioProject from "./index";
 
@@ -39,20 +50,13 @@ export const EvolutionaryTutorsProject = () => (
 export const GreenskyGamesProject = () => (
   <PortfolioProject
     name="Greensky Games"
-    logo="public/assets/images/projects/greensky-games/greensky-logo.png"
+    logo={GreenskyLogo}
     url="https://greensky-games.webflow.io/"
     projectTitle="Website Build"
     projectDescription="An indie gaming studio looking to attract the best development talent and get favourable mentions in the press."
     gradient1="#b7d9b8"
     gradient2="#4da13b"
-    images={[
-      "public/assets/images/projects/greensky-games/screenshots/home.png",
-      "public/assets/images/projects/greensky-games/screenshots/company.png",
-      "public/assets/images/projects/greensky-games/screenshots/work.png",
-      "public/assets/images/projects/greensky-games/screenshots/media.png",
-      "public/assets/images/projects/greensky-games/screenshots/cta.png",
-      "public/assets/images/projects/greensky-games/screenshots/contact.png",
-    ]}
+    images={GreenskyImages}
     content={[
       {
         heading: "The Context",
@@ -67,18 +71,12 @@ export const SculptrVRProject = () => (
   <PortfolioProject
     name="SculptrVR"
     url="https://www.sculptrvr.com/"
-    logo="public/assets/images/projects/sculptrvr/sculptrvr-logo.png"
+    logo={SculptrVRLogo}
     projectTitle="Website Build"
     projectDescription="A bespoke website to get players excited to download and play a 3d virtual reality sculpting game."
     gradient1="#d1ecff"
     gradient2="#98caec"
-    images={[
-      "public/assets/images/projects/sculptrvr/screenshots/home-sculptrvr.png",
-      "public/assets/images/projects/sculptrvr/screenshots/loves-sculptrvr.png",
-      "public/assets/images/projects/sculptrvr/screenshots/play-sculptrvr.png",
-      "public/assets/images/projects/sculptrvr/screenshots/different-sculptrvr.png",
-      "public/assets/images/projects/sculptrvr/screenshots/video-sculptrvr.png",
-    ]}
+    images={SculptrVRImages}
     content={[
       {
         heading: "The Context",
@@ -92,20 +90,13 @@ export const SculptrVRProject = () => (
 export const SketchboxDesignProject = () => (
   <PortfolioProject
     name="Sketchbox Design"
-    logo="public/assets/images/projects/sketchbox-design/sketchbox-design-logo.png"
+    logo={SketchboxLogo}
     url="https://design.sketchbox3d.com/"
     projectTitle="Website Update"
     projectDescription="Sketchbox Design is a marketing website for a VR design and collaboration tool."
     gradient1="#d1d0e8"
     gradient2="#ab9ad3"
-    images={[
-      "public/assets/images/projects/sketchbox-design/screenshots/home.png",
-      "public/assets/images/projects/sketchbox-design/screenshots/how.png",
-      "public/assets/images/projects/sketchbox-design/screenshots/benefits.png",
-      "public/assets/images/projects/sketchbox-design/screenshots/showcase.png",
-      "public/assets/images/projects/sketchbox-design/screenshots/testimonials.png",
-      "public/assets/images/projects/sketchbox-design/screenshots/integrations.png",
-    ]}
+    images={SketchboxImages}
     content={[
       {
         heading: "The Context",
@@ -119,20 +110,13 @@ export const SketchboxDesignProject = () => (
 export const SwarmProject = () => (
   <PortfolioProject
     name="Swarm"
-    logo="public/assets/images/projects/swarm/swarm-logo.png"
+    logo={SwarmLogo}
     url="https://swarm-vr-game.webflow.io/"
     projectTitle="Website Build"
     projectDescription="A website for an intense fast-paced arcade grapple shooter built in VR."
     gradient1="#24dae0"
     gradient2="#bc76e7"
-    images={[
-      "public/assets/images/projects/swarm/screenshots/home.png",
-      "public/assets/images/projects/swarm/screenshots/play.png",
-      "public/assets/images/projects/swarm/screenshots/testimonials.png",
-      "public/assets/images/projects/swarm/screenshots/cta.png",
-      "public/assets/images/projects/swarm/screenshots/press-kit.png",
-      "public/assets/images/projects/swarm/screenshots/contact.png",
-    ]}
+    images={SwarmImages}
     content={[
       {
         heading: "The Context",
@@ -147,30 +131,16 @@ export const TheRamblerCoProject = () => (
   <PortfolioProject
     name="The Rambler Co"
     url="https://www.therambler.co/"
-    logo="public/assets/images/projects/the-rambler-co/rambler-logo.png"
+    logo={RamblerLogo}
     projectTitle="Website Build"
     projectDescription="A responsive website built from scratch to showcase the travel photography and stories for James Vodicka and his team"
     gradient1="#e8dfca"
     gradient2="#f7c7a4"
-    avatar="public/assets/images/projects/the-rambler-co/james-vodicka.jpg"
+    avatar={RamblerAvatar}
     quote="I have been working with Tim to build a new content-focused Australian travel website, The Rambler Co, over the past few months and have been highly impressed with his knowledge, work ethic and professionalism in helping us bring our ideas to life. Not only has Tim worked tirelessly on the design of the website... Tim has gone above and beyond in solving the problems presented to him, and has always offered appropriate solutions to any issues that have arisen. I have loved working with Tim to bring The Rambler Co to life."
     avatarName="James Vodicka"
     avatarTitle="Founder of The Rambler Co"
-    images={[
-      "public/assets/images/projects/the-rambler-co/screenshots/home.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/blog-hero.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/explore.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/blog-content.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/blog-full-image.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/blog-author.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/location-read.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/location-tabs.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/about.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/collective.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/contribute.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/newsletter-cta.png",
-      "public/assets/images/projects/the-rambler-co/screenshots/back-end-rambler.png",
-    ]}
+    images={RamblerImages}
     content={[
       {
         heading: "The Context",
