@@ -9,7 +9,7 @@ export default function Index() {
         <title>Evolutionary Tutors | timkelly.dev</title>
         <meta
           property="og:image"
-          content="/assets/images/openGraph/ogEvolutionary.png"
+          content="public/assets/images/openGraph/ogEvolutionary.png"
         />
       </Head>
       <Layout>

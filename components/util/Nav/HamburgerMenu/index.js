@@ -8,7 +8,7 @@ import style from "./HamburgerMenu.module.css";
 const HamburgerMenu = ({ clicked }) => (
   <div className={style.Menu} onClick={clicked}>
     <Image
-      src="/assets/images/utility/menu.svg"
+      src="public/assets/images/utility/menu.svg"
       alt="menu"
       height="25"
       width="25"

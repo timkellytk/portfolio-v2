@@ -9,7 +9,7 @@ export default function Index() {
         <title>Contact | timkelly.dev</title>
         <meta
           property="og:image"
-          content="/assets/images/openGraph/ogHome.png"
+          content="public/assets/images/openGraph/ogHome.png"
         />
       </Head>
       <Layout>

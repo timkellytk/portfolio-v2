@@ -22,7 +22,7 @@ const MobileNav = ({ show, close }) => {
         onClick={close}
       >
         <Image
-          src="/assets/images/utility/exit.svg"
+          src="public/assets/images/utility/exit.svg"
           alt="Close Menu"
           height="20"
           width="20"

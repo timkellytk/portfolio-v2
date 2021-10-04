@@ -13,7 +13,7 @@ const LinkArrow = ({ link, children }) => (
           <Image
             width="22px"
             height="10px"
-            src="/assets/images/utility/arrow-icon.svg"
+            src="public/assets/images/utility/arrow-icon.svg"
             alt="arrow icon"
           />
         </div>

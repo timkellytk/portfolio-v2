@@ -9,7 +9,7 @@ export default function Index() {
         <title>Sketchbox Design | Portfolio | timkelly.dev</title>
         <meta
           property="og:image"
-          content="/assets/images/openGraph/ogSketchbox.png"
+          content="public/assets/images/openGraph/ogSketchbox.png"
         />
       </Head>
       <Layout>

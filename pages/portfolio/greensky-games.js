@@ -9,7 +9,7 @@ export default function Index() {
         <title>Greensky Games | Portfolio | timkelly.dev</title>
         <meta
           property="og:image"
-          content="/assets/images/openGraph/ogGreensky.png"
+          content="public/assets/images/openGraph/ogGreensky.png"
         />
       </Head>
       <Layout>

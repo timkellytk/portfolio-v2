@@ -10,7 +10,7 @@ const BackArrow = ({ link, children }) => (
       <div className={style.Button}>
         <div className={style.ArrowIcon}>
           <Image
-            src="/assets/images/utility/back-arrow.svg"
+            src="public/assets/images/utility/back-arrow.svg"
             width="22px"
             height="10px"
             alt="arrow icon"

@@ -13,7 +13,7 @@ export default function Index() {
         </title>
         <meta
           property="og:image"
-          content="/assets/images/openGraph/ogHome.png"
+          content="public/assets/images/openGraph/ogHome.png"
         />
       </Head>
       <Layout>

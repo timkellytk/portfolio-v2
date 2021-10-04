@@ -9,7 +9,7 @@ export default function Index() {
         <title>SculptrVR | Portfolio | timkelly.dev</title>
         <meta
           property="og:image"
-          content="/assets/images/openGraph/ogSculptrVR.png"
+          content="public/assets/images/openGraph/ogSculptrVR.png"
         />
       </Head>
       <Layout>

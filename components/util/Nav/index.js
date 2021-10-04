@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import PropTypes from "prop-types";
 import Link from "next/link";
-import Logo from "../../../public/assets/images/utility/tk-logo.png";
+import Logo from "public/assets/images/utility/tk-logo.png";
 import NavItems from "./NavItems";
 import HamburgerMenu from "./HamburgerMenu";
 import style from "./Nav.module.css";

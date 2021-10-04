@@ -9,7 +9,7 @@ export default function Index() {
         <title>The Rambler Co | Portfolio | timkelly.dev</title>
         <meta
           property="og:image"
-          content="/assets/images/openGraph/ogRambler.png"
+          content="public/assets/images/openGraph/ogRambler.png"
         />
       </Head>
       <Layout>

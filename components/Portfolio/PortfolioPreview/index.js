@@ -32,7 +32,7 @@ const PortfolioPreview = ({
 PortfolioPreview.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  logo: PropTypes.string.isRequired,
+  logo: PropTypes.isRequired,
   link: PropTypes.string.isRequired,
   gradient1: PropTypes.string.isRequired,
   gradient2: PropTypes.string.isRequired,

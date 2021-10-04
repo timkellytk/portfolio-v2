@@ -9,7 +9,7 @@ export default function Index() {
         <title>Swarm VR | Portfolio | timkelly.dev</title>
         <meta
           property="og:image"
-          content="/assets/images/openGraph/ogSwarm.png"
+          content="public/assets/images/openGraph/ogSwarm.png"
         />
       </Head>
       <Layout>

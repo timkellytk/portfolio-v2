@@ -4,32 +4,32 @@ import PortfolioProject from "./index";
 export const EvolutionaryTutorsProject = () => (
   <PortfolioProject
     name="Evolutionary Tutors"
-    logo="/assets/images/projects/evolutionary-tutors/evolutionary-logo.png"
+    logo="public/assets/images/projects/evolutionary-tutors/evolutionary-logo.png"
     url="https://www.evolutionarytutors.com.au/"
     projectTitle="Website Build"
     projectDescription="A bespoke website to find students the best tutors, give tutors
               effective training and save administrators time."
     gradient1="#d3d3f9"
     gradient2="#c8f4fc"
-    avatar="/assets/images/projects/evolutionary-tutors/darren-pehn.jpeg"
+    avatar="public/assets/images/projects/evolutionary-tutors/darren-pehn.jpeg"
     quote="Seldom do you come across such a professional and competent young person like Tim. My partner and I had the pleasure of dealing with Tim and Nathan for over six weeks during our acquisition of Evolutionary Tutors. We were particularly impressed by Tim's transparency and attention to detail throughout the entire transaction and, in particular, the handover process. His responses to our queries were always timely, detailed and well-considered."
     avatarName="Darren Pehn"
     avatarTitle="Co-Owner of Evolutionary Tutors"
     images={[
-      "/assets/images/projects/evolutionary-tutors/screenshots/home.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/sydney.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/melbourne.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/info-cards.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/tickpoints.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/pricing.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/reviews.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/tutors-preview.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/tutor.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/tutor-subjects.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/ebook.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/ebook-quiz.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/ebook-chapters.png",
-      "/assets/images/projects/evolutionary-tutors/screenshots/speed-score-evolutionary.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/home.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/sydney.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/melbourne.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/info-cards.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/tickpoints.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/pricing.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/reviews.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/tutors-preview.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/tutor.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/tutor-subjects.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/ebook.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/ebook-quiz.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/ebook-chapters.png",
+      "public/assets/images/projects/evolutionary-tutors/screenshots/speed-score-evolutionary.png",
     ]}
     content={[
       {
@@ -49,19 +49,19 @@ export const EvolutionaryTutorsProject = () => (
 export const GreenskyGamesProject = () => (
   <PortfolioProject
     name="Greensky Games"
-    logo="/assets/images/projects/greensky-games/greensky-logo.png"
+    logo="public/assets/images/projects/greensky-games/greensky-logo.png"
     url="https://greensky-games.webflow.io/"
     projectTitle="Website Build"
     projectDescription="An indie gaming studio looking to attract the best development talent and get favourable mentions in the press."
     gradient1="#b7d9b8"
     gradient2="#4da13b"
     images={[
-      "/assets/images/projects/greensky-games/screenshots/home.png",
-      "/assets/images/projects/greensky-games/screenshots/company.png",
-      "/assets/images/projects/greensky-games/screenshots/work.png",
-      "/assets/images/projects/greensky-games/screenshots/media.png",
-      "/assets/images/projects/greensky-games/screenshots/cta.png",
-      "/assets/images/projects/greensky-games/screenshots/contact.png",
+      "public/assets/images/projects/greensky-games/screenshots/home.png",
+      "public/assets/images/projects/greensky-games/screenshots/company.png",
+      "public/assets/images/projects/greensky-games/screenshots/work.png",
+      "public/assets/images/projects/greensky-games/screenshots/media.png",
+      "public/assets/images/projects/greensky-games/screenshots/cta.png",
+      "public/assets/images/projects/greensky-games/screenshots/contact.png",
     ]}
     content={[
       {
@@ -77,17 +77,17 @@ export const SculptrVRProject = () => (
   <PortfolioProject
     name="SculptrVR"
     url="https://www.sculptrvr.com/"
-    logo="/assets/images/projects/sculptrvr/sculptrvr-logo.png"
+    logo="public/assets/images/projects/sculptrvr/sculptrvr-logo.png"
     projectTitle="Website Build"
     projectDescription="A bespoke website to get players excited to download and play a 3d virtual reality sculpting game."
     gradient1="#d1ecff"
     gradient2="#98caec"
     images={[
-      "/assets/images/projects/sculptrvr/screenshots/home-sculptrvr.png",
-      "/assets/images/projects/sculptrvr/screenshots/loves-sculptrvr.png",
-      "/assets/images/projects/sculptrvr/screenshots/play-sculptrvr.png",
-      "/assets/images/projects/sculptrvr/screenshots/different-sculptrvr.png",
-      "/assets/images/projects/sculptrvr/screenshots/video-sculptrvr.png",
+      "public/assets/images/projects/sculptrvr/screenshots/home-sculptrvr.png",
+      "public/assets/images/projects/sculptrvr/screenshots/loves-sculptrvr.png",
+      "public/assets/images/projects/sculptrvr/screenshots/play-sculptrvr.png",
+      "public/assets/images/projects/sculptrvr/screenshots/different-sculptrvr.png",
+      "public/assets/images/projects/sculptrvr/screenshots/video-sculptrvr.png",
     ]}
     content={[
       {
@@ -102,19 +102,19 @@ export const SculptrVRProject = () => (
 export const SketchboxDesignProject = () => (
   <PortfolioProject
     name="Sketchbox Design"
-    logo="/assets/images/projects/sketchbox-design/sketchbox-design-logo.png"
+    logo="public/assets/images/projects/sketchbox-design/sketchbox-design-logo.png"
     url="https://design.sketchbox3d.com/"
     projectTitle="Website Update"
     projectDescription="Sketchbox Design is a marketing website for a VR design and collaboration tool."
     gradient1="#d1d0e8"
     gradient2="#ab9ad3"
     images={[
-      "/assets/images/projects/sketchbox-design/screenshots/home.png",
-      "/assets/images/projects/sketchbox-design/screenshots/how.png",
-      "/assets/images/projects/sketchbox-design/screenshots/benefits.png",
-      "/assets/images/projects/sketchbox-design/screenshots/showcase.png",
-      "/assets/images/projects/sketchbox-design/screenshots/testimonials.png",
-      "/assets/images/projects/sketchbox-design/screenshots/integrations.png",
+      "public/assets/images/projects/sketchbox-design/screenshots/home.png",
+      "public/assets/images/projects/sketchbox-design/screenshots/how.png",
+      "public/assets/images/projects/sketchbox-design/screenshots/benefits.png",
+      "public/assets/images/projects/sketchbox-design/screenshots/showcase.png",
+      "public/assets/images/projects/sketchbox-design/screenshots/testimonials.png",
+      "public/assets/images/projects/sketchbox-design/screenshots/integrations.png",
     ]}
     content={[
       {
@@ -129,19 +129,19 @@ export const SketchboxDesignProject = () => (
 export const SwarmProject = () => (
   <PortfolioProject
     name="Swarm"
-    logo="/assets/images/projects/swarm/swarm-logo.png"
+    logo="public/assets/images/projects/swarm/swarm-logo.png"
     url="https://swarm-vr-game.webflow.io/"
     projectTitle="Website Build"
     projectDescription="A website for an intense fast-paced arcade grapple shooter built in VR."
     gradient1="#24dae0"
     gradient2="#bc76e7"
     images={[
-      "/assets/images/projects/swarm/screenshots/home.png",
-      "/assets/images/projects/swarm/screenshots/play.png",
-      "/assets/images/projects/swarm/screenshots/testimonials.png",
-      "/assets/images/projects/swarm/screenshots/cta.png",
-      "/assets/images/projects/swarm/screenshots/press-kit.png",
-      "/assets/images/projects/swarm/screenshots/contact.png",
+      "public/assets/images/projects/swarm/screenshots/home.png",
+      "public/assets/images/projects/swarm/screenshots/play.png",
+      "public/assets/images/projects/swarm/screenshots/testimonials.png",
+      "public/assets/images/projects/swarm/screenshots/cta.png",
+      "public/assets/images/projects/swarm/screenshots/press-kit.png",
+      "public/assets/images/projects/swarm/screenshots/contact.png",
     ]}
     content={[
       {
@@ -157,29 +157,29 @@ export const TheRamblerCoProject = () => (
   <PortfolioProject
     name="The Rambler Co"
     url="https://www.therambler.co/"
-    logo="/assets/images/projects/the-rambler-co/rambler-logo.png"
+    logo="public/assets/images/projects/the-rambler-co/rambler-logo.png"
     projectTitle="Website Build"
     projectDescription="A responsive website built from scratch to showcase the travel photography and stories for James Vodicka and his team"
     gradient1="#e8dfca"
     gradient2="#f7c7a4"
-    avatar="/assets/images/projects/the-rambler-co/james-vodicka.jpg"
+    avatar="public/assets/images/projects/the-rambler-co/james-vodicka.jpg"
     quote="I have been working with Tim to build a new content-focused Australian travel website, The Rambler Co, over the past few months and have been highly impressed with his knowledge, work ethic and professionalism in helping us bring our ideas to life. Not only has Tim worked tirelessly on the design of the website... Tim has gone above and beyond in solving the problems presented to him, and has always offered appropriate solutions to any issues that have arisen. I have loved working with Tim to bring The Rambler Co to life."
     avatarName="James Vodicka"
     avatarTitle="Founder of The Rambler Co"
     images={[
-      "/assets/images/projects/the-rambler-co/screenshots/home.png",
-      "/assets/images/projects/the-rambler-co/screenshots/blog-hero.png",
-      "/assets/images/projects/the-rambler-co/screenshots/explore.png",
-      "/assets/images/projects/the-rambler-co/screenshots/blog-content.png",
-      "/assets/images/projects/the-rambler-co/screenshots/blog-full-image.png",
-      "/assets/images/projects/the-rambler-co/screenshots/blog-author.png",
-      "/assets/images/projects/the-rambler-co/screenshots/location-read.png",
-      "/assets/images/projects/the-rambler-co/screenshots/location-tabs.png",
-      "/assets/images/projects/the-rambler-co/screenshots/about.png",
-      "/assets/images/projects/the-rambler-co/screenshots/collective.png",
-      "/assets/images/projects/the-rambler-co/screenshots/contribute.png",
-      "/assets/images/projects/the-rambler-co/screenshots/newsletter-cta.png",
-      "/assets/images/projects/the-rambler-co/screenshots/back-end-rambler.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/home.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/blog-hero.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/explore.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/blog-content.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/blog-full-image.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/blog-author.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/location-read.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/location-tabs.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/about.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/collective.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/contribute.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/newsletter-cta.png",
+      "public/assets/images/projects/the-rambler-co/screenshots/back-end-rambler.png",
     ]}
     content={[
       {
