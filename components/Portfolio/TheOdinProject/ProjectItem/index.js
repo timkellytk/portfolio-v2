@@ -14,6 +14,7 @@ const ProjectItem = ({ link, image, alt }) => (
           layout="fill"
           objectFit="cover"
           objectPosition="top"
+          placeholder="blur"
         />
       </div>
     </a>

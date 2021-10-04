@@ -3,16 +3,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Image from "next/image";
+import MenuImg from "public/assets/images/utility/menu.svg";
 import style from "./HamburgerMenu.module.css";
 
 const HamburgerMenu = ({ clicked }) => (
   <div className={style.Menu} onClick={clicked}>
-    <Image
-      src="public/assets/images/utility/menu.svg"
-      alt="menu"
-      height="25"
-      width="25"
-    />
+    <Image src={MenuImg} alt="menu" height="25" width="25" />
   </div>
 );
 
