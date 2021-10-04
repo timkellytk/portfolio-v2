@@ -1,36 +1,26 @@
 import React from "react";
+import {
+  EvolutinaryTutorsImages,
+  EvolutionaryTutorsLogo,
+  EvolutionaryTutorsAvatar,
+} from "./projectImages";
 import PortfolioProject from "./index";
 
 export const EvolutionaryTutorsProject = () => (
   <PortfolioProject
     name="Evolutionary Tutors"
-    logo="public/assets/images/projects/evolutionary-tutors/evolutionary-logo.png"
+    logo={EvolutionaryTutorsLogo}
     url="https://www.evolutionarytutors.com.au/"
     projectTitle="Website Build"
     projectDescription="A bespoke website to find students the best tutors, give tutors
               effective training and save administrators time."
     gradient1="#d3d3f9"
     gradient2="#c8f4fc"
-    avatar="public/assets/images/projects/evolutionary-tutors/darren-pehn.jpeg"
+    avatar={EvolutionaryTutorsAvatar}
     quote="Seldom do you come across such a professional and competent young person like Tim. My partner and I had the pleasure of dealing with Tim and Nathan for over six weeks during our acquisition of Evolutionary Tutors. We were particularly impressed by Tim's transparency and attention to detail throughout the entire transaction and, in particular, the handover process. His responses to our queries were always timely, detailed and well-considered."
     avatarName="Darren Pehn"
     avatarTitle="Co-Owner of Evolutionary Tutors"
-    images={[
-      "public/assets/images/projects/evolutionary-tutors/screenshots/home.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/sydney.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/melbourne.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/info-cards.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/tickpoints.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/pricing.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/reviews.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/tutors-preview.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/tutor.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/tutor-subjects.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/ebook.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/ebook-quiz.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/ebook-chapters.png",
-      "public/assets/images/projects/evolutionary-tutors/screenshots/speed-score-evolutionary.png",
-    ]}
+    images={EvolutinaryTutorsImages}
     content={[
       {
         heading: "The Context",

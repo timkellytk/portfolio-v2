@@ -39,6 +39,7 @@ const PortfolioProject = ({
         height="800"
         width="1400"
         quality="100"
+        placeholder="blur"
       />
     ));
 
