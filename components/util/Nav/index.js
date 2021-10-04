@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import PropTypes from "prop-types";
 import Link from "next/link";
+import Logo from "../../../public/assets/images/utility/tk-logo.png";
 import NavItems from "./NavItems";
 import HamburgerMenu from "./HamburgerMenu";
 import style from "./Nav.module.css";
@@ -13,10 +14,12 @@ const Nav = ({ open }) => (
         <a>
           <div className={style.Logo}>
             <Image
-              src="/assets/images/utility/tk-logo.png"
+              src={Logo}
               alt="Tim Kelly logo"
               height="30px"
               width="120px"
+              quality="100"
+              priority
             />
           </div>
         </a>

@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import TimKellyAvatarImage from "../../public/assets/images/about/tim-kelly-mobile.png";
+import GithubImage from "../../public/assets/images/utility/github.png";
+import LinkedInImage from "../../public/assets/images/utility/linkedin.png";
 import Button from "../util/Button";
 import BodyContent from "../util/BodyContent";
 import ContentContainer from "../util/ContentContainer";
@@ -18,9 +21,10 @@ const Contact = () => (
                 <Image
                   height="125"
                   width="125"
-                  src="/assets/images/about/tim-kelly-mobile.png"
+                  src={TimKellyAvatarImage}
                   objectFit="cover"
                   objectPosition="center"
+                  placeholder="blur"
                 />
               </div>
               <h1 className={style.Title}>Get in touch</h1>
@@ -42,7 +46,7 @@ const Contact = () => (
                     className={style.SocialIcon}
                   >
                     <Image
-                      src="/assets/images/utility/github.png"
+                      src={GithubImage}
                       alt="github"
                       width="30"
                       height="30"
@@ -56,7 +60,7 @@ const Contact = () => (
                     className={style.SocialIcon}
                   >
                     <Image
-                      src="/assets/images/utility/linkedin.png"
+                      src={LinkedInImage}
                       alt="linkedin"
                       width="30"
                       height="30"

@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import TimKellyDesktopImage from "../../public/assets/images/about/tim-kelly.png";
+import TimKellyMobileImage from "../../public/assets/images/about/tim-kelly-mobile.png";
 import BodyContent from "../util/BodyContent";
 import ContentContainer from "../util/ContentContainer";
 import Animate from "../util/Animate";
@@ -22,16 +24,17 @@ const AboutComponent = () => (
         <Image
           className={style.PhotoDesktop}
           alt="Tim Kelly Profile Picture"
-          src="/assets/images/about/tim-kelly.png"
+          src={TimKellyDesktopImage}
           layout="fill"
           objectFit="cover"
           quality={100}
+          placeholder="blur"
           priority
         />
         <Image
           className={style.PhotoMobile}
           alt="Tim Kelly Profile Picture"
-          src="/assets/images/about/tim-kelly-mobile.png"
+          src={TimKellyMobileImage}
           layout="fill"
           objectFit="cover"
           quality={100}
