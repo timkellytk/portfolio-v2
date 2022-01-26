@@ -93,7 +93,7 @@ const AboutComponent = () => (
           and GraphQL.
         </p>
         <p>
-          Now I&apos;m a UI developer at{" "}
+          Now I&apos;m a frontend developer at{" "}
           <Link href="https://www.4mation.com.au/">
             <a>4mation Technologies</a>
           </Link>
